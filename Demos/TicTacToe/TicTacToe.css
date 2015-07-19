@@ -1,0 +1,48 @@
+.container {
+	height: 300px;
+	width: 300px;
+	margin: auto;
+	padding-top: 200px;
+}
+
+.box {
+	float: left;
+	height: 99px;
+	width: 99px;
+	border: 1px solid #983;
+	margin: -1px -1px 0 0;
+	background-color: #fff8f0;
+}
+
+.box:hover {
+	cursor: pointer;
+	background-color: #efe8e0;
+}
+
+.white {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	border-radius: 26px;
+	background-color: white;
+	margin-top: 24px;
+	margin-left: 24px;
+	border: 1px solid #651;
+}
+
+.black {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	border-radius: 26px;
+	background-color: black;
+	margin-top: 24px;
+	margin-left: 24px;
+	border: 1px solid #651;
+}
+
+
+.clicked:hover {
+	cursor: default;
+	background-color: #fff8f0;	
+}

@@ -1,0 +1,31 @@
+.container {
+	height: 360px;
+	width: 360px;
+	margin: auto;
+	padding-top: 140px;
+}
+
+.box {
+	float: left;
+	height: 39px;
+	width: 39px;
+	border: 1px solid #983;
+	margin: -1px -1px 0 0;
+	background-color: #f0f0f0;
+}
+
+.box span {
+	display: none;
+	font-family: arial;
+	font-size: 20px;
+	text-align: center;
+	line-height: 39px;
+}
+
+.info p {
+	font-family: arial;
+	font-weight: bolder;
+	font-size: 20px;
+	display: block;
+	text-align: center;
+}
