@@ -18,6 +18,6 @@ function start() {
     cssArr4 = [["width", "100px", "200", "backgroundColor", "#fd0", "#0f0"]],
     cssArr5 = [["transform", "rotateX(0deg)", "288"]],
     cssArr6 = [];
-    perspective.scroll(cssArr1, cssArr2, cssArr3, cssArr4, cssArr5, cssArr6, [0, 0.5, 2, 5, 0.5, 0]);
+    perspective.scroll(cssArr1, cssArr2, cssArr3, cssArr4, cssArr5, cssArr6, [0, 0.5, 2, 3, 0.5, 0]);
     perspective.hover();
 }

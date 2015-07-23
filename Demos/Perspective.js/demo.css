@@ -106,6 +106,12 @@ p {
   top: -30%;
 }
 
+#container4 {
+  background: -webkit-linear-gradient(left,rgba(0,255,0,0.3),rgba(255,221,0,0.5));
+  background: -moz-linear-gradient(left,rgba(0,255,0,0.3),rgba(255,221,0,0.5));
+  background: -o-linear-gradient(left,rgba(0,255,0,0.3),rgba(255,221,0,0.5));
+}
+
 #container4 .div1 {
   height: 100px;
   width: 100px;
@@ -114,6 +120,26 @@ p {
   left: 50%;
   margin-left: -100px;
   background-color: #fd0;
+}
+
+#container4 .div2 {
+  background: url('images/battery.png') no-repeat;
+  background-size: contain;
+  height: 140px;
+  width: 280px;
+  top: 40%;
+  left: 50%;
+  margin-left: -122px;
+  margin-top: -20px;
+}
+
+#container4 p {
+  width: 600px;
+  text-align: center;
+  color: #eee;
+  bottom: 30%;
+  left: 50%;
+  margin-left: -300px;
 }
 
 #container5 {
