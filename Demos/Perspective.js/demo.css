@@ -36,13 +36,13 @@ html, body {
 #container1 .div1 {
   height: 130%;
   width: 100%;
-  background-image: url('images/universe-background.jpg');
+  background-image: url('http://7xiryd.com1.z0.glb.clouddn.com/perspective_universe-background.jpg');
 }
 
 #container1 .div2 {
   height: 180px;
   width: 180px;
-  background-image: url('images/planet_1.png');
+  background-image: url('http://7xiryd.com1.z0.glb.clouddn.com/perspective_planet_1.png');
   top: 600px;
   left: 60%;
   z-index: 1;
@@ -52,7 +52,7 @@ html, body {
 #container1 .div3 {
   height: 900px;
   width: 900px;
-  background-image: url('images/planet_2.png');
+  background-image: url('http://7xiryd.com1.z0.glb.clouddn.com/perspective_planet_2.png');
   top: 500px;
   left: -20%;
   z-index: 1;
@@ -77,7 +77,7 @@ p {
 #container2 .div1 {
   height: 490px;
   width: 450px;
-  background-image: url('images/cube_1.png');
+  background-image: url('http://7xiryd.com1.z0.glb.clouddn.com/perspective_cube_1.png');
   background-repeat: no-repeat;
   top: 50%;
   left: 50%;
@@ -93,7 +93,7 @@ p {
 #container3 .div1 {
   height: 100%;
   width: 100%;
-  background-image: url('images/wood.jpg');
+  background-image: url('http://7xiryd.com1.z0.glb.clouddn.com/perspective_wood.jpg');
   background-size: cover;
 }
 
@@ -202,7 +202,7 @@ p {
   width: 80%;
   left: 10%;
   top: 10%;
-  background-image:  url('images/sky.jpg');
+  background-image:  url('http://7xiryd.com1.z0.glb.clouddn.com/perspective_sky.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
