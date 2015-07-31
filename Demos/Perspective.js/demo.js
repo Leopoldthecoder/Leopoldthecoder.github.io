@@ -1,4 +1,4 @@
-﻿var imgs = ['images/universe-background.jpg', 'images/planet_1.png', 'images/planet_2.png', 'images/cube_1.png', 'images/cube_2.png', 'images/cube_3.png', 'images/cube_4.png', 'images/cube_5.png', 'images/wood.jpg'];
+﻿var imgs = ['http://7xiryd.com1.z0.glb.clouddn.com/perspective_universe-background.jpg', 'http://7xiryd.com1.z0.glb.clouddn.com/perspective_planet_1.png', 'http://7xiryd.com1.z0.glb.clouddn.com/perspective_planet_2.png', 'http://7xiryd.com1.z0.glb.clouddn.com/perspective_cube_1.png', 'http://7xiryd.com1.z0.glb.clouddn.com/perspective_cube_2.png', 'http://7xiryd.com1.z0.glb.clouddn.com/perspective_cube_3.png', 'http://7xiryd.com1.z0.glb.clouddn.com/perspective_cube_4.png', 'http://7xiryd.com1.z0.glb.clouddn.com/perspective_cube_5.png', 'http://7xiryd.com1.z0.glb.clouddn.com/perspective_wood.jpg', 'http://7xiryd.com1.z0.glb.clouddn.com/perspective_sky.jpg'];
 var imgs_onload = function() {
     imgs.pop();
     if(imgs.length === 0) {
@@ -13,7 +13,7 @@ for (s in imgs) {
 
 function start() {
     var cssArr1 = [["transform", "translateY(0px)", "-100"], ["transform", "translateY(0px)", "-180"], ["transform", "translateY(0px)", "-700"]],
-    cssArr2 = [["backgroundImage", "url('images/cube_1.png')", "5"]],
+    cssArr2 = [["backgroundImage", "url('http://7xiryd.com1.z0.glb.clouddn.com/perspective_cube_1.png')", "url('http://7xiryd.com1.z0.glb.clouddn.com/perspective_cube_5.png')"]],
     cssArr3 = [[], ["opacity", "0", "0.9", "transform", "translateY(0px)", "-50"]],
     cssArr4 = [["width", "100px", "200", "backgroundColor", "#fd0", "#0f0"]],
     cssArr5 = [["transform", "rotateX(0deg)", "288"]],
