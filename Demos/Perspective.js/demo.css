@@ -109,9 +109,9 @@ p {
 }
 
 #container4 {
-  background: -webkit-linear-gradient(left,rgba(0,255,0,0.28),rgba(255,221,0,0.48));
-  background: -moz-linear-gradient(left,rgba(0,255,0,0.28),rgba(255,221,0,0.48));
-  background: -o-linear-gradient(left,rgba(0,255,0,0.28),rgba(255,221,0,0.48));
+  background: -webkit-linear-gradient(left,rgba(255,221,0,0.48),rgba(0,255,0,0.28));
+  background: -moz-linear-gradient(left,rgba(255,221,0,0.48),rgba(0,255,0,0.28));
+  background: -o-linear-gradient(left,rgba(255,221,0,0.48),rgba(0,255,0,0.28));
 }
 
 #container4 .div1 {
