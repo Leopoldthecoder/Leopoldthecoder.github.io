@@ -60,9 +60,10 @@ html, body {
 }
 
 p {
-  font: bold 70px Tahoma;
+  font: bold 70px "Cambria";
   color: #fff;
-  text-shadow: 5px 5px 5px black;
+  text-shadow: 3px 3px 5px black;
+  cursor: default;
 }
 
 #container1 p {
@@ -88,6 +89,7 @@ p {
 #container2 p {
   top: 40%;
   left: 65%;
+  color: #d24820;
 }
 
 #container3 .div1 {
@@ -107,9 +109,9 @@ p {
 }
 
 #container4 {
-  background: -webkit-linear-gradient(left,rgba(0,255,0,0.3),rgba(255,221,0,0.5));
-  background: -moz-linear-gradient(left,rgba(0,255,0,0.3),rgba(255,221,0,0.5));
-  background: -o-linear-gradient(left,rgba(0,255,0,0.3),rgba(255,221,0,0.5));
+  background: -webkit-linear-gradient(left,rgba(0,255,0,0.28),rgba(255,221,0,0.48));
+  background: -moz-linear-gradient(left,rgba(0,255,0,0.28),rgba(255,221,0,0.48));
+  background: -o-linear-gradient(left,rgba(0,255,0,0.28),rgba(255,221,0,0.48));
 }
 
 #container4 .div1 {
@@ -136,7 +138,7 @@ p {
 #container4 p {
   width: 600px;
   text-align: center;
-  color: #eee;
+  color: #5f0;
   bottom: 30%;
   left: 50%;
   margin-left: -300px;
@@ -208,54 +210,16 @@ p {
 }
 
 #container6 .div2 {
-  height: 150%;
-  width: 150%;
-  top: -25%;
-  left: -25%;
-  background-color: transparent;
-}
-
-#container6 .div2 div{
-  height: 300px;
-  width: 450px;
-  border-radius: 40px;
-  font: bold 70px/300px arial;
-  text-shadow: 0 0 20px #fff;
+  width: 800px;
+  height: 200px;
   text-align: center;
-  color: #666;
-  opacity: 0.2;
+  background-color: transparent;
+  left: 50%;
+  top: 50%;
+  margin-top: -100px;
+  margin-left: -400px;
 }
 
-#container6 .div2 div:hover{
-  opacity: 1;
-}
-
-#container6 .div2 div:nth-child(1){
-  background-color: #69b;
-  top: 15%;
-  left: 15%;
-}
-
-#container6 .div2 div:nth-child(2){
-  background-color: #7aa;
-  top: 10%;
-  left: 40%;
-}
-
-#container6 .div2 div:nth-child(3){
-  background-color: #57a;
-  top: 20%;
-  right: 15%;
-}
-
-#container6 .div2 div:nth-child(4){
-  background-color: #daa78a;
-  top: 60%;
-  left: 25%;
-}
-
-#container6 .div2 div:nth-child(5){
-  background-color: #b95849;
-  top: 65%;
-  right: 20%;
+#container6 .div2 p{
+  font-family: "Cambria";
 }
