@@ -102,7 +102,7 @@ p {
 #container3 .div2 {
   height: 150%;
   width: 100%;
-  background-image: url('images/text.png');
+  background-image: url('http://7xiryd.com1.z0.glb.clouddn.com/perspective_text.png');
   background-size: cover;
   background-repeat: no-repeat;
   top: -30%;
@@ -125,7 +125,7 @@ p {
 }
 
 #container4 .div2 {
-  background: url('images/battery.png') no-repeat;
+  background: url('http://7xiryd.com1.z0.glb.clouddn.com/perspective_battery.png') no-repeat;
   background-size: contain;
   height: 140px;
   width: 280px;
