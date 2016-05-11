@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui, maximum-scale=1.0, minimum-scale=1.0">
+  <style media="screen">
+    * {
+      padding: 0;
+      margin: 0;
+      -webkit-user-select: none;
+      -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    .example-title {
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      font-size: 20px;
+      background-color: #dddddd;
+    }
+
+    .example-wrapper {
+      height: 300px;
+      overflow: scroll;
+      border: solid 1px #70b2b0;
+    }
+
+    .example-list {
+      padding: 4px 4px 0;
+      list-style: none;
+    }
+
+    .example-listitem {
+      height: 50px;
+      line-height: 50px;
+      border: solid 1px #999;
+      border-radius: 2px;
+      margin-bottom: 4px;
+      text-align: center;
+    }
+
+    .example-listitem:last-child {
+      margin-bottom: 0;
+    }
+  </style>
+  <title>vue-loadmore examples</title>
+</head>
+<body>
+<p class="example-title">vue-loadmore example</p>
+<div class="example-wrapper" id="example1">
+  <loadmore :top-method="loadTop1" :bottom-method="loadBottom1" :bottom-all-loaded="allLoaded1">
+    <ul class="example-list">
+      <li v-for="item in list1" class="example-listitem">{{ item }}</li>
+    </ul>
+  </loadmore>
+</div>
+<div id="example2">
+  <loadmore :top-method="loadTop2" :bottom-method="loadBottom2" :bottom-all-loaded="allLoaded2">
+    <ul class="example-list">
+      <li v-for="item in list2" class="example-listitem">{{ item }}</li>
+    </ul>
+  </loadmore>
+</div>
+
+
+<script src="https://cdn.css.net/libs/vue/1.0.10/vue.min.js"></script>
+<!--<script src="../lib/index.js"></script>-->
+<script src="./dist/build.js"></script>
+</body>
+</html>
