@@ -1,0 +1,307 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("../font/iconfont.eot");
+  /* IE9*/
+  src: url("../font/iconfont.eot?#iefix") format("embedded-opentype"), url("../font/iconfont.woff") format("woff"), url("../font/iconfont.ttf") format("truetype"), url("../font/iconfont.svg#iconfont") format("svg");
+  /* iOS 4.1- */
+}
+/* line 25, ../sass/screen.scss */
+h1 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #364300;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cdde8c;
+}
+/* line 31, ../sass/screen.scss */
+h1.non-top {
+  margin-top: 50px;
+}
+
+/* line 36, ../sass/screen.scss */
+h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #637a0b;
+  display: inline-block;
+}
+
+/* line 43, ../sass/screen.scss */
+.iconfont {
+  font-family: "iconfont";
+}
+
+/* line 47, ../sass/screen.scss */
+.clearfix:after {
+  clear: both;
+  height: 0;
+  content: "";
+  display: block;
+}
+
+/* line 54, ../sass/screen.scss */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 59, ../sass/screen.scss */
+main {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #f0f8d1;
+  font-family: "Microsoft Yahei";
+}
+
+/* line 66, ../sass/screen.scss */
+header {
+  height: 140px;
+  padding: 20px 50px;
+  background-color: #263300;
+}
+/* line 70, ../sass/screen.scss */
+header .avatar {
+  display: inline-block;
+  text-align: center;
+  width: 150px;
+}
+/* line 74, ../sass/screen.scss */
+header .avatar .name {
+  color: #fff;
+  font-size: 70px;
+  line-height: 100px;
+}
+/* line 79, ../sass/screen.scss */
+header .avatar .occupation {
+  color: #e8f5b6;
+  font-size: 20px;
+}
+/* line 84, ../sass/screen.scss */
+header address {
+  float: right;
+}
+/* line 87, ../sass/screen.scss */
+header address ul li {
+  color: #fff;
+  font-family: "M+ 2c";
+  font-size: 17px;
+  line-height: 25px;
+}
+/* line 92, ../sass/screen.scss */
+header address ul li a {
+  transition: .5s ease-out;
+}
+/* line 95, ../sass/screen.scss */
+header address ul li a:hover {
+  color: #e8f5b6;
+}
+/* line 99, ../sass/screen.scss */
+header address ul li:before {
+  display: inline-block;
+  width: 24px;
+  color: #e8f5b6;
+  font-family: "iconfont" !important;
+  font-size: 18px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* line 110, ../sass/screen.scss */
+header address ul .phone:before {
+  content: "\e61d";
+}
+/* line 113, ../sass/screen.scss */
+header address ul .mail:before {
+  content: "\e610";
+}
+/* line 116, ../sass/screen.scss */
+header address ul .github:before {
+  content: "\e7ab";
+}
+/* line 119, ../sass/screen.scss */
+header address ul .zhihu:before {
+  content: "\e6d1";
+}
+/* line 122, ../sass/screen.scss */
+header address ul .blog:before {
+  content: "\e63a";
+}
+
+/* line 129, ../sass/screen.scss */
+.content {
+  padding: 30px 50px;
+}
+/* line 131, ../sass/screen.scss */
+.content .left-row {
+  width: 330px;
+  height: 1200px;
+  float: left;
+  padding-right: 50px;
+}
+/* line 137, ../sass/screen.scss */
+.content .right-row {
+  margin-left: 420px;
+  height: 1200px;
+}
+/* line 141, ../sass/screen.scss */
+.content p {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #637a0b;
+  font-family: "Tsentsiu Mono HG";
+}
+/* line 144, ../sass/screen.scss */
+.content .item {
+  margin-top: 35px;
+}
+/* line 146, ../sass/screen.scss */
+.content .item figure {
+  margin-top: 8px;
+  vertical-align: middle;
+  position: relative;
+}
+/* line 150, ../sass/screen.scss */
+.content .item figure span {
+  font-size: 14px;
+  color: #263300;
+  font-family: "M+ 2c";
+  display: inline-block;
+}
+/* line 155, ../sass/screen.scss */
+.content .item figure span.score {
+  float: right;
+  padding-right: 30px;
+}
+/* line 161, ../sass/screen.scss */
+.content .item .outer {
+  display: inline-block;
+  position: absolute;
+  left: 50px;
+  height: 16px;
+  width: 180px;
+  background-color: #364300;
+  border-radius: 8px;
+  overflow: hidden;
+}
+/* line 171, ../sass/screen.scss */
+.content .item .inner {
+  height: 100%;
+  background-color: #b2c663;
+}
+/* line 174, ../sass/screen.scss */
+.content .item .inner.cet4 {
+  width: 92%;
+}
+/* line 177, ../sass/screen.scss */
+.content .item .inner.cet6 {
+  width: 89%;
+}
+/* line 180, ../sass/screen.scss */
+.content .item .inner.toefl {
+  width: 88%;
+}
+/* line 184, ../sass/screen.scss */
+.content .item a {
+  font-family: "M+ 2c";
+  font-size: 12px;
+  color: #364300;
+  margin-left: 10px;
+}
+/* line 190, ../sass/screen.scss */
+.content .item .tech {
+  margin-top: 10px;
+}
+/* line 192, ../sass/screen.scss */
+.content .item .tech span {
+  font-size: 14px;
+  font-family: "M+ 2c";
+  color: #f0f8d1;
+  background-color: #364300;
+  padding: 2px 8px;
+  border-radius: 12px;
+  margin-right: 6px;
+}
+/* line 203, ../sass/screen.scss */
+.content .misc {
+  list-style: disc;
+  margin-left: 20px;
+}
+/* line 206, ../sass/screen.scss */
+.content .misc li {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #637a0b;
+  font-family: "Tsentsiu Mono HG";
+}
