@@ -17,9 +17,6 @@
     height: 100%;
     overflow: hidden;
   }
-  body {
-    position: relative;
-  }
   .btn {
     width: 300px;
     padding: 20px;
@@ -34,11 +31,18 @@
     bottom: 0;
     left: 0;
     background-color: #333;
-    transition: .3s;
-    transform: translate3d(0,100%,0);
+    transform: translate3d(0,0,0);
   }
   .test.show {
-    transform: translate3d(0,0,0);
+    animation: appear .3s;
+  }
+  @keyframes appear {
+    0% {
+      transform: translate3d(0,100%,0);
+    }
+    100% {
+      transform: translate3d(0,0,0);
+    }
   }
 </style>
 <script>
